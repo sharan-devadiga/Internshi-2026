@@ -121,5 +121,104 @@
 // }
 
 // const date = new Date("2026-07-08");
-const date = new Date();
-console.log(date);
+// const date = new Date();
+// console.log(date);
+
+//Function Without Parameter
+// function greet() {
+//   console.log("Welcome");
+// }
+// greet();
+
+// //Function With Parameter
+// function add(a, b) {
+//   console.log(a + b);
+// }
+// add(10, 20);
+
+// //Function with Return Value
+// function multiply(a, b) {
+//   return a * b;
+// }
+// let result = multiply(5, 4);
+// console.log(result);
+
+// //Anonymous Function
+// let message = function () {
+//   console.log("Hello Students");
+// };
+// message();
+
+// //Arrow Function Es6
+// const addition = (a, b) => {
+//   console.log(a + b);
+// };
+// addition(30, 40);
+
+//1.Global Scope
+// let college = "ABC College";
+
+// const showCollege = () => {
+//   console.log(college);
+// };
+// showCollege();
+
+// //2.Local Scope
+// const student = () => {
+//   let name = "Sharan";
+//   console.log(name);
+// };
+// student();
+// // console.log(name); // Error
+
+// const cars = ["saab", "Bmw", "volvo"];
+// console.log(cars);
+
+// //Join Method
+// console.log(cars.join("cars")); //Any Special char and strings
+
+// //pop() method
+// console.log(cars.pop());
+
+// //push() method
+// console.log(cars.push("Suzuki"));
+// console.log(cars);
+
+//Switch Statement
+
+// let days = "sat";
+
+// switch (days) {
+//   case "Monday":
+//     console.log("Today Is Monday");
+//     break;
+//   case "Tuesday":
+//     console.log("Today Is Tuesday");
+//     break;
+//   case "Wed":
+//     console.log("Today Is Wed");
+//     break;
+//   case "Thr":
+//     console.log("Today Is THR");
+//     break;
+//   default:
+//     console.log("No Day Found");
+//     break;
+// }
+
+// const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+// const passwordRegex =
+//   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+// const phoneRegex =
+//   /^(\+1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+
+let word = "Hello World";
+console.log(word);
+
+//Search Method
+console.log(word.search("o"));
+
+//Replace Method
+console.log(word.replace("World", "goodmorning"));
