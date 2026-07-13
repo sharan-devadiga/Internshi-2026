@@ -214,11 +214,104 @@
 // const phoneRegex =
 //   /^(\+1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
-let word = "Hello World";
-console.log(word);
+// let word = "Hello World";
+// console.log(word);
 
-//Search Method
-console.log(word.search("o"));
+// //Search Method
+// console.log(word.search("o"));
 
-//Replace Method
-console.log(word.replace("World", "goodmorning"));
+// //Replace Method
+// console.log(word.replace("World", "goodmorning"));
+
+// try {
+//   alert("Welcome Guest");
+// } catch (error) {
+//   console.log(error);
+// }
+
+// try {
+//   console.log("Hello");
+// } catch (error) {
+//   console.log("This is the error:", error);
+// }
+
+// let myArray = ["Apple", "banana", "orange"];
+
+// // myArray.map(() => {});   syntax
+
+// myArray.map((item) => {
+//   console.log(item);
+// });
+
+//Destructuring using an Array
+// let numbers = [1, 2, 3, 4];
+
+// let [one, two, three, four] = numbers;
+
+// console.log(one, two, three, four);
+
+// console.log(one, four);
+
+// //Object Destructuring
+// let person = { name: "Dinesh", age: 35, job: "SDE" };
+// let { name, age, job } = person;
+// // console.log(name, age, job);
+// console.log("Name:", name);
+// console.log("Age:", age);
+// console.log("job:", job);
+
+// //Spread Operator
+// let fruits = ["Apple", "banana", "Mango"];
+
+// let newFruits = [...fruits];
+
+// console.log(newFruits);
+
+// //Merge Both Array Using Spread Op
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+
+// let arr3 = [...arr1, ...arr2];
+// console.log(arr3);
+
+// //Add Element To an Array using Spread Op
+// let numbers = [9, 10, 11];
+// let result = [8, ...numbers, 12];
+// console.log(result);
+
+// //Spread Op using Objects
+// let student = {
+//   name: "Sharan",
+//   age: 21,
+// };
+// let student2 = { ...student };
+// console.log(student2);
+
+// //Merge The object
+// let personal = {
+//   name: "Suresh",
+// };
+
+// let details = {
+//   age: 21,
+//   City: "Mangalore",
+// };
+// let user = { ...personal, ...details };
+// console.log(user);
+
+// //Spread Op in Functions--
+// let sum = (a, b, c) => {
+//   return a + b + c;
+// };
+
+// let num = [10, 20, 30];
+// console.log(sum(...num));
+
+// let digits = [1, 2, 3, 4, 5, 6];
+// let [...rest] = digits;
+// console.log(rest);
+
+// //Ternary  Op
+// let x = 10;
+// // condition? "Statement 1":"statement 2"
+// x === 0 ? console.log("True") : console.log("False");
